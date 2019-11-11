@@ -1,0 +1,10 @@
+.skipall{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(243, 243, 243);
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 0;
+}
