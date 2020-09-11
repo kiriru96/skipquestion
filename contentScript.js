@@ -1,5 +1,6 @@
 let button = document.createElement("button");
-let cantans = document.getElementsByClassName("CantAnswerActionItem");
+//let cantans = document.getElementsByClassName("CantAnswerActionItem"); // can not use this anymore because quora change document html of answer page
+let cantans = document.getElementsByName("CantAnswer"); // because quora change structure and name of html document
 button.setAttribute("class", "skipall");
 button.innerHTML = `Skip ${cantans.length} Question `;
 button.addEventListener("click", (ev)=>{
